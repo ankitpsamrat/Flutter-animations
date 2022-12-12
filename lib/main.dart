@@ -1,4 +1,4 @@
-import 'package:animations/packages/confetti_animation.dart';
+import 'package:animations/packages/lottie_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Animation',
       // home: HomePage(),
       // home: AnimatedSizedAnimation(),
-      home: ConfettiAnimation(),
+      // home: ConfettiAnimation(),
+      // home: ProgressButton(),
+      home: LottieAnimation(),
     );
   }
 }
