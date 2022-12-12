@@ -1,4 +1,4 @@
-import 'package:animations/home_page.dart';
+import 'package:animations/packages/confetti_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Animation',
-      home: HomePage(),
+      // home: HomePage(),
+      // home: AnimatedSizedAnimation(),
+      home: ConfettiAnimation(),
     );
   }
 }
