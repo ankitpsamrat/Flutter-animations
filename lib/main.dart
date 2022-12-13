@@ -1,4 +1,4 @@
-import 'package:animations/packages/lottie_animation.dart';
+import 'package:animations/widgets/animated_rotation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,14 @@ class MyApp extends StatelessWidget {
       // home: AnimatedSizedAnimation(),
       // home: ConfettiAnimation(),
       // home: ProgressButton(),
-      home: LottieAnimation(),
+      // home: LottieAnimation(),
+      // home: AnimatedBuilderAnimation(),
+      // home: AnimatedContainerAnimation(),
+      // home: CrossFadeAnimation(),
+      // home: TextStyleAnimation(),
+      // home: IconAnimation(),
+      // home: OpacityAnimation(),
+      home: RotationAnimation(),
     );
   }
 }
