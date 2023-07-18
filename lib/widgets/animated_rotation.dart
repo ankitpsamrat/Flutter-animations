@@ -19,27 +19,28 @@ class _RotationAnimationState extends State<RotationAnimation> {
         title: Text('Animated Rotation'),
       ),
       body: Center(
-          child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Padding(
-            padding: EdgeInsets.all(50),
-            child: AnimatedRotation(
-              turns: turn,
-              duration: Duration(seconds: 1),
-              child: FlutterLogo(size: 100),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Padding(
+              padding: EdgeInsets.all(50),
+              child: AnimatedRotation(
+                turns: turn,
+                duration: Duration(seconds: 1),
+                child: FlutterLogo(size: 100),
+              ),
             ),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              setState(() {
-                turn = turn + 1 / 4;
-              });
-            },
-            child: Text('Rotate'),
-          ),
-        ],
-      ),),
+            ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  turn = turn + 1 / 4;
+                });
+              },
+              child: Text('Rotate'),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
