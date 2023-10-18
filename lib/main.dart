@@ -1,4 +1,4 @@
-import 'package:animations/widgets/animated_rotation.dart';
+import 'package:animations/widgets/animated_listview.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
       // home: TextStyleAnimation(),
       // home: IconAnimation(),
       // home: OpacityAnimation(),
-      home: RotationAnimation(),
+      // home: RotationAnimation(),
+      home: AnimatedListView(),
     );
   }
 }
