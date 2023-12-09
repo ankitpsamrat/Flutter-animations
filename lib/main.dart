@@ -1,4 +1,4 @@
-import 'package:animations/widgets/animated_listview.dart';
+import 'package:animations/widgets/hero_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,7 +25,8 @@ class MyApp extends StatelessWidget {
       // home: IconAnimation(),
       // home: OpacityAnimation(),
       // home: RotationAnimation(),
-      home: AnimatedListView(),
+      // home: AnimatedListView(),
+      home: HeroAnimation(),
     );
   }
 }
