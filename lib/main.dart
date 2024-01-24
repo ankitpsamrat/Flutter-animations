@@ -12,20 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Animation',
-      // home: HomePage(),
-      // home: AnimatedSizedAnimation(),
-      // home: ConfettiAnimation(),
-      // home: ProgressButton(),
-      // home: LottieAnimation(),
-      // home: AnimatedBuilderAnimation(),
-      // home: AnimatedContainerAnimation(),
-      // home: CrossFadeAnimation(),
-      // home: TextStyleAnimation(),
-      // home: IconAnimation(),
-      // home: OpacityAnimation(),
-      // home: RotationAnimation(),
-      // home: AnimatedListView(),
+      title: 'Flutter Animation',
       home: HeroAnimation(),
     );
   }
